@@ -1,0 +1,314 @@
+#head{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: 22%;
+    margin-left: 39.9%;
+    background-color: yellowgreen;
+    border: none;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+#body{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin-top: 30%;
+    margin-left: 40%;
+    border: none;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+#hand{
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    background-color: yellowgreen;
+    border: none;
+    margin-top: 430px;
+    margin-left: 36%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+#hand-right{
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    margin-top: 430px;
+    margin-left: 55%;
+    background-color: yellowgreen;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+#foot-left{
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin-top: 42%;
+    margin-left: 43%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#foot-right{
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin-top: 42%;
+    margin-left: 48%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#eay{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+    margin-left: 43%;
+    margin-top: 25%;
+}
+#eayright{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+    margin-left: 48%;
+    margin-top:25%;
+}
+#shach{
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    background-color: yellowgreen;
+    transform: rotate(-45deg);
+    margin-left: 42%;
+    margin-top: 20%;
+}
+#shachright{
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    background-color: yellowgreen;
+    transform: rotate(45deg);
+    margin-left: 52%;
+    margin-top: 20%;
+}
+/*mobile-------------------------------------*/
+@media only screen and (max-width: 600px){
+    #head{
+        margin-top: 30%;
+        margin-left: 30%;
+    }
+    #body{
+        margin-top: 52%;
+        margin-left: 30%;
+    }
+    #hand{
+        margin-top: 52%;
+        margin-left: 16%;
+    }
+    #hand-right{
+        margin-top: 52%;
+        margin-left: 75%;
+    }
+    #foot-left{
+        margin-top: 85%;
+        margin-left: 35%;
+    }
+    #foot-right{
+        margin-top: 85%;
+        margin-left: 55%;
+    }
+    #eay{
+        margin-top: 39%;
+        margin-left: 38%;
+    }
+    #eayright{
+        margin-top: 39%;
+        margin-left: 58%;
+    }
+    #shach{
+        margin-top: 23%;
+        margin-left: 38%;
+    }
+    #shachright{
+        margin-top: 23%;
+        margin-left: 58%;
+    }
+}
+/*---------------------------tablet-----------------------*/
+
+@media only screen and (min-width : 601px)and (max-width : 995px) {
+    #head{
+        margin-top: 23%;
+        margin-left: 30%;
+    }
+    #body{
+        margin-top: 35%;
+        margin-left: 30%;
+    }
+    #hand{
+        margin-top: 35%;
+        margin-left: 22%;
+    }
+    #hand-right{
+        margin-top: 35%;
+        margin-left: 54%;
+    }
+    #foot-left{
+        margin-top: 52%;
+        margin-left: 35%;
+    }
+    #foot-right{
+        margin-top: 52%;
+        margin-left: 43%;
+    }
+    #eay{
+        margin-top: 27%;
+        margin-left: 35%;
+    }
+    #eayright{
+        margin-top: 27%;
+        margin-left: 44%;
+    }
+    #shach{
+        margin-top: 20%;
+        margin-left: 32%;
+    }
+    #shachright{
+        margin-top: 20%;
+        margin-left: 48%;
+    }
+}
+@media only screen and (min-width : 995px){
+    #head{
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        margin-top: 22%;
+        margin-left: 39.9%;
+        background-color: yellowgreen;
+        border: none;
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+    }
+    #body{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: yellowgreen;
+        margin-top: 30%;
+        margin-left: 40%;
+        border: none;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    #hand{
+        position: absolute;
+        width: 40px;
+        height: 120px;
+        background-color: yellowgreen;
+        border: none;
+        margin-top: 430px;
+        margin-left: 36%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+    }
+    #hand-right{
+        position: absolute;
+        width: 40px;
+        height: 120px;
+        margin-top: 430px;
+        margin-left: 55%;
+        background-color: yellowgreen;
+        border: none;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+    }
+    #foot-left{
+        position: absolute;
+        width: 40px;
+        height: 120px;
+        background-color: yellowgreen;
+        margin-top: 42%;
+        margin-left: 43%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    #foot-right{
+        position: absolute;
+        width: 40px;
+        height: 120px;
+        background-color: yellowgreen;
+        margin-top: 42%;
+        margin-left: 48%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    #eay{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50px;
+        float: left;
+        margin-left: 43%;
+        margin-top: 25%;
+    }
+    #eayright{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50px;
+        float: left;
+        margin-left: 48%;
+        margin-top:25%;
+    }
+    #shach{
+        position: absolute;
+        width: 5px;
+        height: 50px;
+        background-color: yellowgreen;
+        transform: rotate(-45deg);
+        margin-left: 42%;
+        margin-top: 20%;
+    }
+    #shachright{
+        position: absolute;
+        width: 5px;
+        height: 50px;
+        background-color: yellowgreen;
+        transform: rotate(45deg);
+        margin-left: 52%;
+        margin-top: 20%;
+    }
+}
+

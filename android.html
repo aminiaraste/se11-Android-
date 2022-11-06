@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="android.css">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <div id="shach">
+
+    </div>
+    <div id="shachright">
+
+    </div>
+    <button id="head">
+
+    </button>
+    <button id="body">
+
+    </button>
+    <button id="hand">
+
+    </button>
+    <button id="hand-right">
+
+    </button>
+    
+    <div id="foot-left">
+
+    </div>
+    <div id="foot-right">
+
+    </div>
+    <div id="eay">
+
+    </div>
+    <div id="eayright">
+
+    </div>
+   </div>
+    
+    <script>
+        var handright = document.getElementById("hand-right")
+        var handleft = document.getElementById("hand")
+        var shekam = document.getElementById("body")
+        var sar = document.getElementById("head")
+       handright.onclick = function(){
+           handright.setAttribute("style", "transform: rotate(50deg);");
+       }
+       handleft.onclick = function(){
+            handleft.setAttribute("style", "transform: rotate(120deg);");
+       }
+       shekam.onclick = function(){
+            eay.setAttribute("style", "display: none;")
+            eayright.setAttribute("style", "display: none;")
+       }
+       sar.onclick =function(){
+            eay.setAttribute("style", "display: block;")
+            eayright.setAttribute("style", "display: block;")
+       }
+   </script>
+</body>
+</html>
